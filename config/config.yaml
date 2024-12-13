@@ -1,0 +1,14 @@
+﻿train_data_path: "dataset/train.csv"
+test_data_path: "dataset/testA.csv"
+batch_size: 256
+sequence_length: 205
+input_size: 1
+tcn_channel: [ 128, 128, 64 ]
+kernel_size: 3
+gru_units: 64
+num_classes: 4
+dropout: 0.2
+learning_rate: 0.001
+num_epochs: 101
+checkpoint_path: "checkpoint.pth"
+save_interval: 5

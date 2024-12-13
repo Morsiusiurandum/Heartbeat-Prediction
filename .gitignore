@@ -163,3 +163,7 @@ cython_debug/
 
 # Dataset Folder
 dataset/
+
+# Checkpoints and evaluation results
+*.pth
+*.csv
